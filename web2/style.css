@@ -1,0 +1,24 @@
+#this{
+    color:#ED9952;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#now{
+    text-align: center;
+}
+p{
+    background-color: azure;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#lol{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family:'Courier New', Courier, monospace ;
+}
+body {
+    
+    background-color: #cccccc;
+  }
+  
