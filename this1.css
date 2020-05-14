@@ -1,0 +1,13 @@
+body{
+    background-color: lightgray;
+    margin: 20px;
+}
+.ref{
+    display: inline-block;
+    margin-left: 500px;
+    background-color: rgb(122, 78, 78);
+    padding: 6px;
+}
+.pop{
+    color: navajowhite;
+}
