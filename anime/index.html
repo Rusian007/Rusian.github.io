@@ -4,41 +4,58 @@
  <meta charset = "UTF-8">
  <title>externalStyle.html</title>
  <!-- Latest compiled and minified CSS -->
-
- 
-   <style>
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(images/loader-64x/Preloader_4.gif) center no-repeat #fff;
-}
-</style>
-
-
-<script>
-	//paste this code under head tag or in a seperate js file.
-	// Wait for window load
-	 jQuery(window).load(function() {
-// Animate loader off screen
- jQuery(“.se-pre-con”).fadeOut(“slow”);;
-	 });
-</script>
-	 <link rel = "stylesheet"
-   type = "text/css"
-   href = "style.css" />
+<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<style type="text/css">
+	.back-link a {
+		color: #4ca340;
+		text-decoration: none; 
+		border-bottom: 1px #4ca340 solid;
+	}
+	.back-link a:hover,
+	.back-link a:focus {
+		color: #408536; 
+		text-decoration: none;
+		border-bottom: 1px #408536 solid;
+	}
+	h1 {
+		height: 100%;
+		/* The html and body elements cannot have any padding or margin. */
+		margin: 0;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 32px;
+		margin-bottom: 3px;
+	}
+	.entry-header {
+		text-align: left;
+		margin: 0 auto 50px auto;
+		width: 80%;
+        max-width: 978px;
+		position: relative;
+		z-index: 10001;
+	}
+	#demo-content {
+		padding-top: 100px;
+	}
+	</style>
+   
+ <link rel = "stylesheet" type = "text/css" href = "style.css" />
 <script src="jav.js"></script>
+
+
+
  </head>
  <body>
-	 <div class="se-pre-con">Loading OwO!...</div>
+ <div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+		</div>
+
 <div class="parent">
 <div class="div1"> 
 <h1>Anime Sites OwO :)</h1>
@@ -79,10 +96,10 @@ if it's not present, don't show loader */
 <footer>To BE continued
 <img id="foot" src="tenor.gif" alt="some gif"></img>
 </footer>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/main.js"></script>
  </body>
  
-    
-    
     
     
