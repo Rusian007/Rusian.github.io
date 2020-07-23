@@ -52,8 +52,8 @@ p {
     border: 3px solid transparent;
     border-top-color: #3498db;
 
-    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation: spin 5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
     z-index: 1001;
 }
@@ -69,8 +69,8 @@ p {
         border: 3px solid transparent;
         border-top-color: #e74c3c;
 
-        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+        -webkit-animation: spin 5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
 
     #loader:after {
@@ -84,8 +84,8 @@ p {
         border: 3px solid transparent;
         border-top-color: #f9c922;
 
-        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+        -webkit-animation: spin 2.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 2.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
 
     @-webkit-keyframes spin {
@@ -139,8 +139,8 @@ p {
             -ms-transform: translateX(-100%);  /* IE 9 */
                 transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
-                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+        -webkit-transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+                transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
 
     .loaded #loader-wrapper .loader-section.section-right {
@@ -148,14 +148,14 @@ p {
             -ms-transform: translateX(100%);  /* IE 9 */
                 transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 
--webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
-        transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+-webkit-transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);  
+        transition: all 1s 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
     }
     
     .loaded #loader {
         opacity: 0;
-        -webkit-transition: all 0.3s ease-out;  
-                transition: all 0.3s ease-out;
+        -webkit-transition: all 0.7s ease-out;  
+                transition: all 0.7s ease-out;
     }
     .loaded #loader-wrapper {
         visibility: hidden;
@@ -164,8 +164,8 @@ p {
             -ms-transform: translateY(-100%);  /* IE 9 */
                 transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-        -webkit-transition: all 0.3s 1s ease-out;  
-                transition: all 0.3s 1s ease-out;
+        -webkit-transition: all 0.7s 1s ease-out;  
+                transition: all 0.7s 1s ease-out;
     }
     
     /* JavaScript Turned Off */
