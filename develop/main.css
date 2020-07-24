@@ -13,7 +13,7 @@ body{
     background-attachment: fixed;
     height: 80vh !important;
     width:100%;
-    border-radius: 0 50% 50% 0;
+    
      animation-name: myani;
      animation-duration: 10s ;
      animation-timing-function: ease-in-out;
@@ -30,7 +30,7 @@ body{
     }
 }
 
-h1,p{
+#left h1,p{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
    
@@ -48,35 +48,32 @@ color: white;
     width:100%;
 }
 #right img{
-    
+    width:26rem;
     position: relative;
-top: 12rem;
-left:15rem;
-width: 10rem;
+    top:44%;
+    left:8rem;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    #right img{
+@media only screen and (max-width: 516px) {
     
+    #right img{
+        width:16rem;
         position: relative;
-    top: 11.5rem;
-    left:9.5rem;
-    width: 10rem;
+    top: 33%;
+    left:6.4rem;
+    
     }
   }
   @media only screen and (max-width: 375px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(184, 228, 243);
     }
     #right img{
-    
+        width:16rem;
         position: relative;
-    top: 13rem;
-    left:5rem;
-    width: 10rem;
+    top: 33%;
+    left:3rem;
+    
     }
   }
 
