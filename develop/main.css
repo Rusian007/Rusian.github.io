@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(246, 255, 169);
+    height: 100rem;
+}
+.navbar{
+    background-color: #ffffff !important;
+    padding: .5rem;
+    
+}
+
+#left{
+
+    background-attachment: fixed;
+    height: 80vh !important;
+    width:100%;
+    border-radius: 0 50% 50% 0;
+     animation-name: myani;
+     animation-duration: 10s ;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+@keyframes myani{
+    0%,100%{
+        background-image: url("1.png");
+    }
+    50%{
+        background-image: url("2.png");
+    }
+}
+
+h1,p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+line-height: 40px; 
+color: white;
+
+}
+
+#right{
+    
+    height: 80vh !important;
+    width:100%;
+}
+#right img{
+    
+    position: relative;
+top: 12rem;
+left:15rem;
+width: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #right img{
+    
+        position: relative;
+    top: 11.5rem;
+    left:9.5rem;
+    width: 10rem;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    body {
+      background-color: lightblue;
+    }
+    #right img{
+    
+        position: relative;
+    top: 13rem;
+    left:5rem;
+    width: 10rem;
+    }
+  }
+
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
