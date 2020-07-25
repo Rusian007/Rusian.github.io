@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="bulma-0.9.0\css\bulma.css">
+  <link rel="stylesheet" href="bulma-0.9.0\node_modules\bulma-extensions\bulma-carousel\dist\css\bulma-carousel.min.css">
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+  
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+  
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+  
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+  
+        });
+      });
+    }
+  
+  });</script>
+  <script type="text/javascript" src="bulma-0.9.0\node_modules\bulma-extensions\bulma-carousel\dist\js/bulma-carousel.min.js"></script>
+  <title>Ohayo!</title>
+
+
+</head>
+
+<body style="background-color: rgb(255, 241, 117);height:200rem;">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#"  ">
+        <img src="f.png"  height="29">
+      <h1 style="font-size: large; font-weight:bold;">黑手党</h1>
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Contracts
+        </a>
+
+    </div>
+  </nav>
+
+  
+  <div class="columns " style="margin: 0px;">
+    <div id="change" class="column" style="background-image:url(1.png);background-attachment: fixed;
+    height:91.5vh;
+    width:auto;
+    background-size:cover;">
+    <h1 style="color: rgb(255, 255, 255); margin: 0;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);text-shadow: 2px 3px #1a1919;" class="title">
+      The infamous</h1>
+      <h2 class="subtitle" style="color: rgb(255, 255, 255);margin: 0;position: relative;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);text-shadow: 2px 3px #1a1919;">我们关心</h2>
+    </div>
+    
+  </div>
+  <section class="hero is-medium"style="background-color:rgb(219, 219, 219);text-align:center;">
+    
+      <div class="container"style="padding:16px;">
+        <figure class="image " style="text-align: center;
+        display: block;
+        height:7rem;
+        width:7rem;
+        position:relative;
+        left:25%">
+          <img src="f.png">
+        </figure>
+        <br>
+        <h1 class="title">
+          Hero title
+        </h1>
+        <p style="font-weight:bold;">但是，世界的建立会让你失望，<br>并使你失望。</p>
+        <p > 现在你知道 . </p>
+      </div>
+    
+  </section>
+  
+  
+</body>
+
+</html>
