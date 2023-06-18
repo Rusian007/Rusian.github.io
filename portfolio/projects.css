@@ -24,6 +24,8 @@ body{
 
 .logo h2{
     font-family: var(--monofont);
+    font-size: 20px;
+    font-weight: bold;
 }
 nav{
     color: white;

@@ -17,6 +17,11 @@
 background: transparent;
 color: white;
 }
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 30px; /* Added */
+}
 
     </style>
 </head>
@@ -36,7 +41,8 @@ color: white;
     <div class="container">
 
  <div class="row">
-            <div  class="card p-3" style="width: 80%; background: #0B5351 !important; color: white;">
+    <div class="col">
+                <div  class="card p-3" style="width: 80%; background: #0B5351 !important; color: white;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
@@ -64,11 +70,16 @@ color: white;
                     <li class="list-group-item">IPFS access was limited for public url so we had to find a alternative.</li>
                 </ul>
             </div>
+            </div>
+            
 
   </div>
 
 
-        <div class="row mt-5">
+        <div class="row">
+            <div class="col">
+                
+            
             <div class="card p-3" style="width: 80%;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -97,11 +108,11 @@ color: white;
                     <li style="color: black !important;" class="list-group-item">An efficient hosting provider; for now, it is hosted on a free site.</li>
                 </ul>
             </div>
-
+        </div>
   </div>
 
-  <div class="row mt-5">
-
+  <div class="row">
+    <div class="col">
             <div class="card p-3" style="width: 80%;  background: #0B5351 !important; color: white;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -131,12 +142,12 @@ color: white;
                     <li class="list-group-item">Another hosting was needed for rails and redis.</li>
                 </ul>
             </div>
-            
+            </div>
   </div>
 
 
-  <div class="row mt-5 mb-5">
-
+  <div class="row">
+    <div class="col">
             <div class="card p-3" style="width: 80%;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -166,7 +177,7 @@ color: white;
                     
                 </ul>
             </div>
-            
+            </div>
   </div>
     </div>
 
