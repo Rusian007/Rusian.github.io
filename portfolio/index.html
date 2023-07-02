@@ -1,177 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="portfolio2.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+
+	<title>Home | ART</title>
 </head>
-
 <body>
-    <nav>
-        <div class="logo">
-            <h2>ART</h2>
-        </div>
 
-        <div class="links">
+	<div class="mother">
+		<div class="child container bg-dark">
+			
+			<nav class="flexbox">
+				<div class="logo">
+					<h2>ART</h2>
+				</div>
 
-            <a href="https://github.com/Rusian007">Git ID</a>
-              <a href="projects.html">Projects</a>
-        </div>
+				<div class="links">
+					<a href="https://github.com/Rusian007">Github</a>
+					<a href="projects.html">Projects</a>
+					<a href="bio.html">Bio</a>
+				</div>
+			</nav>
 
-    </nav>
+			<main>
+				<div class="flexed">
+					<div class="main-text">
+						<h3>Hello there !</h3>
+						<h1>I am a <span id="element"></span></h1>
+						
+					</div>
+						
 
+					<div class="line"></div>
 
+					<div class="img">
+							                <img src="https://www.dropbox.com/s/wwlov45poosvnls/351669056_292615559782653_4305995844316573522_n.jpg?raw=1" alt="Avatar" class="avatar">
 
-    <div class="container">
-        <div class="left">
-            <div class="image">
-                <img src="https://www.dropbox.com/s/wwlov45poosvnls/351669056_292615559782653_4305995844316573522_n.jpg?raw=1" alt="Avatar" class="avatar">
+							                <h4>I'm Arafat Rahman</h4>
 
+					</div>	
+				</div>
+				
+			</main>
+		</div>
 
-
-            </div>
-            <h1>Arafat Rahman</h1>
-            <h3>Full-Stack Web & Android Developer</h3>
-        </div>
-
-        <div class="right">
-            <div class="objective">
-                <h1>About Me</h1>
-                <p>My name is Arafat Rahman, and I am a full-stack web developer and Android developer. I have been
+		<div class="child area">
+			<div class="container about">
+				<h1>About Me</h1>
+				<div class="span"></div>
+			<p>
+				My name is Arafat Rahman, and I am a full-stack web developer and Android developer. 
+				<br><br>
+				I have been
                     working with web development and Android development , and I am passionate
                     about creating high-quality applications and web sites. My goal is to create
                     applications that are user-friendly, efficient, and aesthetically pleasing. I am constantly learning
                     and refining my skills in order to stay up to date with the latest technologies and trends in web
                     and mobile development. I am also very passionate about open source software and strongly believe in
-                    its potential to make the world a better place. I am always looking for new opportunities to expand
-                    my skills and collaborate with like-minded developers.</p>
-            </div>
+                    its potential to make the world a better place.
+                    <br><br>
+                     I am always looking for new opportunities to expand
+                    my skills and collaborate with like-minded developers.
+                </p>
 
+			</div>
+			
 
-
-        </div>
-
-    </div>
-
-    <div class="container m-top">
-        <div class="left-side">
-            <h1>Experience</h1>
-            <p>
-            <ul>
-                <li>
-                    I have had the opportunity to work with a company called Elish Paribahan, where I was part of a team
-                    that created a website and an Android application. This project involved a lot of teamwork and
-                    collaboration, as well as problem solving, which are skills I am proud to have developed through
-                    this experience.
-                </li>
-                <li>
-                    Additionally, I worked for BDapps Lite, where I was able to gain experience with developing mobile
-                    applications. I am excited to continue learning and growing as a developer.
-
-                </li>
+	
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
             </ul>
-            </p>
-        </div>
+    
+			
+		</div>
 
-        <div class="right-side">
-            <h1>Skills</h1>
+		<div class="child container flex-container">
 
-            <div class="skills">
-                <div class="skill">
-                    <h3>Java</h3>
-                    <div class="progress">
-                        80%
-                    </div>
-                </div>
+			<div class="circle-container">
 
-                <div class="skill">
-                    <h3>Ruby</h3>
-                    <div class="progress">
-                        56%
-                    </div>
-                </div>
+				<div onclick="runAnime();" id="circle" class="circle">
 
-                <div class="skill">
-                    <h3>Python</h3>
-                    <div class="progress">
-                        83%
-                    </div>
-                </div>
-            </div>
+					<div class="click">Click</div>
+					<div id="link1" onclick="profile();" class="item1 z-index-low">
+						<a href="bio.html">
+							<i class="fi-xnsuxl-user-tie-circle"></i>
+						<div class="block"></div>
+						</a>
+						
+					</div>
 
+					<div id="link2" onclick="projects();" class="item2 z-index-low">
+						<a href="projects.html">
+							<i class="fi-xnsuxl-heart-solid"></i>
+						</a>
+					</div>
 
-            <div class="skills">
-                <div class="skill">
-                    <h3>CSS</h3>
-                    <div class="progress">
-                        81%
-                    </div>
-                </div>
+					<div id="link3" onclick="git();" class="item3 z-index-low">
+						<a href="https://github.com/Rusian007">
+							<i class="fi-xnsuxl-git"></i>
+						</a>
+					</div>
+						
+				</div>
+			</div>
+			
+			
+			
 
-                <div class="skill">
-                    <h3>XML</h3>
-                    <div class="progress">
-                        60%
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h3>JS</h3>
-                    <div class="progress">
-                        81%
-                    </div>
-                </div>
-            </div>
+		</div>
 
 
-            <div class="skills">
-                <div class="skill">
-                    <h3>Laravel</h3>
-                    <div class="progress">
-                        54%
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h3>Django</h3>
-                    <div class="progress">
-                        76%
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <h3>React</h3>
-                    <div class="progress">
-                        71%
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container-full">
-        <h1 style="color: white;"><a href="projects.html"> Check Out My Projects - Click here 🔗</a> </h1>
-         
-        <div id="wrapper">
-            <div class="shape">
-                <a href="https://elishparibahan.com/">Elish Website</a>
-            </div>
-            <div class="shape">
-                <a href="https://github.com/Rusian007/Bus_App"> Ticket Android App</a>
-            </div>
-
-            <div class="shape">
-                <a href="https://github.com/Rusian007/Cpu-Process-Android"> Cpu-Monitor Android</a>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="cpy">
+<footer >
+	
+	 <div class="cpy">
             <p>
                 © Copyright 2023, Arafat Rahman. All Rights Reserved.
             </p>
@@ -179,31 +131,23 @@
 
         <div class="email">
             <p>
-                Email me - arafat.rahman19@outlook.com
+                Email me - arafat.rahman19@northsouth.edu
             </p>
         </div>
-    </footer>
 
-    <script>
+</footer>
+	
+	</div>
+	
 
-
-        const wrapper = document.getElementById("wrapper");
-        const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-        let prev = rand(1, 3)
-        let next = 0
-
-        setInterval(() => {
-
-            wrapper.dataset.configuration = prev
-            next = prev
-            prev = rand(1, 3)
-
-            while (prev == next) {
-                prev = rand(1, 3)
-            }
-
-        }, 2000)
-    </script>
+	 <script src="index.js"></script>
+	 <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
+	 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	   <script>
+    	var typed = new Typed('#element', {
+      strings: ['<i>Web</i>  Developer ^1000', 'Fullstack <i>Web</i> Developer' , 'Android Developer' , 'Programmer ^1000','<i>Web</i>  Developer ^1000' ],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
-
 </html>

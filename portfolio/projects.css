@@ -1,53 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 :root{
-    --background: #092327;
-    --light-green: #0B5351;
-    --lighter-green: #00A9A5;
-    --air-blue: #4E8098;
-    --sky-blue: #90C2E7;
-    --monofont: monospace;
-    --latofont: 'Lato';
+	--bg-color: #fff5ee;
+	--bg-pink: #E50045;
+	--bg-blue: #1ab7ff;
 }
 *{
-    margin: 0;
-    padding: 0;
-    font-family: var(--latofont);
-    
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Rubik;
 }
-
+html,
 body{
-    background-color: var(--background);
+	
+	background: var(--bg-blue) !important ;
+	 
 }
-
 .logo h2{
-    font-family: var(--monofont);
-    font-size: 20px;
-    font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 23px;
+	font-family: Rubik !important;
+	font-weight: bold !important;
+}
+.container{
+	padding: 10px 55px;
+}
+nav a{
+	color: white;
+	padding: 10px 15px;
+	margin-left: 2px;
+	text-decoration: none;
+
+}
+nav a:hover{
+	transition: 1s;
+	background: black;
 }
 nav{
-    color: white;
-    padding: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center ;
-    margin-bottom: 10px;
+	padding: 20px 5px;
+	margin-bottom: 0px !important;
 }
 
-a{
-    font-family: var(--monofont);
-    text-decoration: none;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    color: white;
-    transition: 0.5s;
+.flexbox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-a:hover{
-    background-color: var(--light-green);
+
+@media only screen and (max-width: 600px) {
+  nav{
+	padding: 15px 4px;
+	margin-bottom: 20px;
 }
+nav a{
+	color: white;
+	padding: 5px 10px;
+	margin-left: 2px;
+	text-decoration: none;
+	font-size: 13px;
+}
+}
+
 
 footer{
     display: flex;
@@ -57,4 +70,17 @@ footer{
     padding: 30px;
     background-color: black;
     color: white;
+}
+.links{
+	display: flex;
+}
+a{
+	color: black;
+	display: flex;
+	align-items: center;
+
+}
+a i{
+	padding: 4px;
+	font-size: 14px;
 }

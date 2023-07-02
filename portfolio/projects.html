@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="projects.css">
-    <style type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects | ART</title>
+	<link rel="stylesheet" href="projects.css">
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<style type="text/css">
         .carousel {
-   width:99%;
-  
- }
+   			width:99%;
+  }
  .list-group-item{
-background: transparent;
-color: white;
+
+
 }
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
-        margin-bottom: 30px; /* Added */
+        margin-bottom: 15px; /* Added */
+        transform: scale(0.9);
 }
-
+@media only screen and (max-width: 600px) {
+  .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 30px; /* Added */
+        transform: scale(1.0);
+}
+}
     </style>
 </head>
-
 <body>
-    <nav>
-        <div class="logo">
-            <h2>ART</h2>
-        </div>
+	<div class="container">
+			<nav class="flexbox">
+				<div class="logo">
+					<h2>ART</h2>
+				</div>
 
-        <div class="links">
-            <a href="https://github.com/Rusian007">Git ID</a>
-            <a href="index.html">Home</a>
-        </div>
-    </nav>
+				<div class="links">
+					<a href="https://github.com/Rusian007">Github</a>
+					<a href="bio.html">Bio</a>
+					<a href="index.html">Home</a>
+				</div>
+			</nav>
+	</div>
 
-    <div class="container">
+
+<div class="container">
 
  <div class="row">
     <div class="col">
-                <div  class="card p-3" style="width: 80%; background: #0B5351 !important; color: white;">
+                <div  class="card p-3" style="width: 80%;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
@@ -96,7 +105,7 @@ color: white;
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">Laravel - Classroom Website</h5>
+                    <h5 class="card-title"><a href="http://poralekha.is-best.net/public/">Laravel - Classroom Website <i class="fi-xwluxl-external-link-wide"></i></a></h5>
                     <p class="card-text">
                         A simple website to create new courses, add course materials and YouTube links with a minimal dashboard for the teachers to add, update new courses. Courses can be viewed from courses tab. Also includes the feature to add different course metarials of different universities. 
                     </p>
@@ -113,23 +122,27 @@ color: white;
 
   <div class="row">
     <div class="col">
-            <div class="card p-3" style="width: 80%;  background: #0B5351 !important; color: white;">
+            <div class="card p-3" style="width: 80%;">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
                             <img src="https://www.dropbox.com/s/71my51shkfhok8k/pg1.png?raw=1" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://www.dropbox.com/s/f298tce4pota37l/pg2.PNG?raw=1" alt="...">
+                            <img class="d-block w-100" src="https://www.dropbox.com/s/ysxzna1xcr3s5uq/Capture.PNG?raw=1" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://www.dropbox.com/s/piokqb0p972xkpj/pg3.PNG?raw=1" class="d-block w-100" alt="...">
+                            <img src="https://www.dropbox.com/s/qncfn336xswa7uv/Capture2.PNG?raw=1" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://www.dropbox.com/s/ysxzna1xcr3s5uq/Capture.PNG?raw=1" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">Ruby on Rails - Search Engine</h5>
+                    <h5 class="card-title"><a href="http://dlr.softwarepatron.com/">Ruby on Rails - Search Engine<i class="fi-xwluxl-external-link-wide"></i></a></h5>
                     <p class="card-text">
                         A AI search engine using Elastisearch and searchkick to search Law reports, judgements and rulings. Project uses redis for caching.
                     </p>
@@ -164,7 +177,7 @@ color: white;
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">PHP HTML CSS & JS - Social Media blogging site</h5>
+                    <h5 class="card-title"><a href="http://nsc.liveblog365.com/start">PHP HTML CSS & JS - Social Media blogging site<i class="fi-xwluxl-external-link-wide"></i></a></h5>
                     <p class="card-text">
                         A minimal website to create blogposts, upload pictures and react to others posts, User can use the real-time search capabilities to find any posts easily. And if the user gets bored they can use the Chat AI - <b> Open AI </b> API for ChatGPT.
                     </p>
@@ -181,21 +194,23 @@ color: white;
   </div>
     </div>
 
-    <footer>
-        <div class="cpy">
+
+<footer>
+	
+	 <div class="cpy">
             <p>
-                &copy; 2023, Arafat Rahman. All Rights Reserved.
+                © Copyright 2023, Arafat Rahman. All Rights Reserved.
             </p>
         </div>
 
         <div class="email">
             <p>
-                Email me - arafat.rahman19@outlook.com
+                Email me - arafat.rahman19@northsouth.edu
             </p>
         </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        
+</footer>
+ <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
-
 </html>
