@@ -31,9 +31,12 @@ body{
 
 .bg-dark{
 	 background: rgb(34,193,195);
-	 background-image: linear-gradient(to right bottom, #ff2c6b, #f548a4, #d86bd3, #ab89f2, #76a0ff, #51b0ff, #27beff, #00caff, #00d7ff, #12e4fc, #3df0f7, #5ffbf1);
+	 
+	background: linear-gradient(306deg, rgba(249,255,11,1) 0%, rgba(0,120,176,1) 100%); 
 
-
+ 	-webkit-animation: Animation 5s ease infinite;
+    	-moz-animation: Animation 5s ease infinite;
+   	animation: Animation 5s ease infinite;
 }
 .container{
 	padding: 10px 55px;
