@@ -31,7 +31,7 @@ body{
 
 .bg-dark{
 	 background: rgb(34,193,195);
-background: linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+	 background-image: linear-gradient(to right bottom, #ff2c6b, #f548a4, #d86bd3, #ab89f2, #76a0ff, #51b0ff, #27beff, #00caff, #00d7ff, #12e4fc, #3df0f7, #5ffbf1);
 
 
 }
