@@ -32,7 +32,7 @@ body{
 .bg-dark{
 	 background: rgb(34,193,195);
 	 
-	background: linear-gradient(165deg, rgba(249,255,11,1) 0%, rgba(0,120,176,1) 100%);
+	background: linear-gradient(320deg, rgba(249,255,11,1) 0%, rgba(0,120,176,1) 100%);
 
  	-webkit-animation: Animation 5s ease infinite;
     	-moz-animation: Animation 5s ease infinite;
