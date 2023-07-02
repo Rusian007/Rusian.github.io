@@ -113,6 +113,8 @@ nav{
 .logo{
 	color: white;
 }
+
+
 @media only screen and (max-width: 600px) {
   nav{
 	padding: 15px 4px;
@@ -340,4 +342,120 @@ ul li{
 	border-radius: 20px;
 	background-color: white;
 	margin-bottom: 3px;
+}
+
+.cv{
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.cv a{
+	text-align: center;
+	color: white;
+	border: 2px dashed white;
+	padding: 100px;
+	width: 40%;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.cv a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+   display: flex;
+  }
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    max-width: 620px;
+    align-self: center;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+   
+    position: relative; /* for pseudos */
+    color: black;
+    font-size: 1.7rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius:20px;
+    padding: 22px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+    content:"";
+    position: absolute;
+    border: 2px solid #e74848;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -62px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3; 
+}
+
+.blockquote h1:before {
+    content:"";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #292a2b;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+  @media only screen and (max-width: 600px) {
+.cv a{
+
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+	}
+
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+   }
+
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left:150px;
+    padding-left:12px;
+}
+
+ 
+.blockquote h4:first-letter {
+  margin-left:-12px;
 }

@@ -365,6 +365,8 @@
         return result;
         }
         function setUpCarousel(carousel) {
+            
+
         function handleNext() {
         currentSlide = modulo(currentSlide + 1, numSlides);
         changeSlide(currentSlide);
@@ -386,7 +388,13 @@
         // set up events
         buttonPrevious.addEventListener('click', handlePrevious);
         buttonNext.addEventListener('click', handleNext);
+        setTimeout(() => {
+                 handleNext();
+            }, "1000");
+
         }
+
+
         const carousels = document.querySelectorAll('[data-carousel]');
         carousels.forEach(setUpCarousel);
         </script>
